@@ -13,4 +13,5 @@ def get_country_with_most_users(data:list) -> str:
         return country1
     else:
         return country2
+
 print(get_country_with_most_users([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]))
